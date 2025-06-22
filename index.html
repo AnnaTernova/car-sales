@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Car Sales</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="headings-header">
+        <h1 class="heading-primary">Available Cars</h1>
+        <p class="heading-description">There are 15 cars that match your criteria</p>
+      </div>
+      <form class="search">
+        <input type="text" class="input-search">
+        <img src="./assets/three-dots.svg" class="checkbox-menu" alt="Checkbox Menu">
+      </form>
+      <form class="filter" action="/">
+        <div class="check-container"><label class="custom-checkbox" for="new">
+            <input type="checkbox" id="new"> <span class="checkmark"></span>
+            New cars
+          </label></div>
+        <div class="check-container"><label class="custom-checkbox" for="used">
+            <input type="checkbox" id="used"> <span class="checkmark"></span>
+            Used cars
+          </label></div>
+        <div class="check-container">
+          <label class="custom-checkbox" for="dealer">
+            <input type="checkbox" id="dealer"><span class="checkmark"></span>
+            Dealership
+          </label>
+        </div>
+        <div class="check-container"><label class="custom-checkbox" for="owner">
+            <input type="checkbox" id="owner"><span class="checkmark"></span>
+            For sale by owner
+          </label></div>
+      </form>
+    </header>
+    <main>
+      <div class="headings-main">
+        <h3 class="heading-details">Car details</h3>
+        <h3 class="heading-location">Location</h3>
+        <h3 class="heading-price">Price</h3>
+        <h3 class="heading-action">Action</h3>
+      </div>
+      <div class="cars-container">
+        <p class="car-name">2017 Toyota Highlander V4</p>
+        <p class="car-location">1944 Scrimba Ln
+          Youngstown,OH 44481</p>
+        <div class="car-col-2">
+          <p class="car-price">$17,400</p>
+          <button class="car-action" data-id="car-1"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+        <p class="car-name">2012 Toyota Tundra 4x4</p>
+        <p class="car-location">301 Fantasy Dr
+          Beverly Hills,CA 90210</p>
+        <div class="car-col-2">
+          <p class="car-price">$23,900</p>
+          <button class="car-action" data-id="car-2"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+        <p class="car-name">2004 Dodge Ram 4x4</p>
+        <p class="car-location">9104 Falsety Ave
+          AnonyVille,FL 40440</p>
+        <div class="car-col-2">
+          <p class="car-price">$7,998</p>
+          <button class="car-action" data-id="car-3"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+        <p class="car-name">2021 Tesla Model 3</p>
+        <p class="car-location">993 Fiscal St
+          Boulder,CO 93391</p>
+        <div class="car-col-2">
+          <p class="car-price">$37,490</p>
+          <button class="car-action" data-id="car-4"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+        <p class="car-name">2017 Toyota Highlander V4</p>
+        <p class="car-location">1944 Scrimba Ln
+          Youngstown,OH 44481</p>
+        <div class="car-col-2">
+          <p class="car-price">$17,400</p>
+          <button class="car-action" data-id="car-5"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+        <p class="car-name">2012 Toyota Tundra 4x4</p>
+        <p class="car-location">301 Fantasy Dr
+          Beverly Hills,CA 90210</p>
+        <div class="car-col-2">
+          <p class="car-price">$23,900</p>
+          <button class="car-action" data-id="car-6"><img src="./assets/favorite.svg" alt="Favorite"></button>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
