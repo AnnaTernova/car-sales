@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  margin: 9em;
+  margin: 4em;
   height: calc(100% - 2em);
 }
 /* HEADER */
@@ -65,8 +65,8 @@ body {
 .filter {
   display: none;
   position: absolute;
-  top: 13em;
-  right: 5em;
+  /* top: 7em;
+  right: 3em; */
   flex-direction: column;
   gap: 1em;
   font-size: 1.8rem;
@@ -204,8 +204,8 @@ body {
   }
 
   .filter {
-    top: 10em;
-    right: 6em;
+    top: 7em;
+    right: 3em;
   }
 
   .headings-main {
@@ -248,5 +248,12 @@ body {
 
   .car-action {
     margin-right: 1.6em;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .filter {
+    top: 12em;
+    right: 2em;
   }
 }
